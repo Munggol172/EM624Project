@@ -1,0 +1,10 @@
+```txt
+pandas
+matplotlib
+seaborn
+scipy
+numpy
+textblob
+wordcloud
+plotly
+openpyxl
