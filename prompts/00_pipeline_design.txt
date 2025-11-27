@@ -1,0 +1,14 @@
+# LLM USED: ChatGPT-4o (27 Nov 2025)
+# PROMPT: You are helping three students... (same as you wrote)
+
+# LLM RESPONSE – FINAL PIPELINE DESIGN (7 components)
+
+1. load_data() → reads all CSVs from /data
+2. filter_gun_suicides() → keeps only intent == "Suicide" AND police_involved == 0
+3. clean_and_engineer_features() → fixes age, bins age groups, cleans education, adds season/month_name
+4. exploratory_visualizations() → saves 8 key plots automatically
+5. statistical_tests() → chi-square, risk ratios, prints results
+6. generate_summary_findings() → prints bullet-point answers for the report
+7. main() → runs everything in order and saves plots
+
+All functions are completely independent, documented, and contain the exact LLM prompt used to create them as comments.
