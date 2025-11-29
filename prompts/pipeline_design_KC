@@ -1,0 +1,15 @@
+Build a single, reproducible Python pipeline that ingests the FiveThirtyEight gun dataset,
+focuses on firearm suicides (2012–2014), engineers analysis variables, produces tables and
+visualizations, runs basic statistical checks, and prints out clear findings that can be used
+directly in the written report.
+
+High-level stages
+1. Environment & folder setup
+2. Data ingestion
+3. Suicide subset creation
+4. Feature engineering & cleaning
+5. Descriptive summaries
+6. Visualization suite
+7. Risk & association analysis
+8. Narrative summary for the report
+9. Orchestration (main driver)
